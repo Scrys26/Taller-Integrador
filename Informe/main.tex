@@ -47,6 +47,36 @@ Este documento presenta el alcance y la investigación inicial para el desarroll
 LoRa, APRS, LPWAN, Comunicaciones Inalámbricas, Regulación del Espectro, Costa Rica.
 \end{IEEEkeywords}
 
+% ==============================
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Desarrollar el firmware de un iGate APRS basado en tecnología LoRa capaz de recibir paquetes de radio provenientes de nodos remotos y retransmitirlos hacia la red APRS-IS mediante conexión a Internet, cumpliendo con las condiciones técnicas y regulatorias establecidas para el uso del espectro en Costa Rica.
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+
+\item Investigar los fundamentos teóricos de los sistemas de comunicación APRS y de la tecnología LoRa, incluyendo su arquitectura de red y parámetros físicos de operación.
+
+\item Analizar la normativa costarricense relacionada con el uso del espectro radioeléctrico, con el fin de identificar las bandas de operación permitidas y sus restricciones técnicas.
+
+\item Implementar un firmware capaz de recibir tramas LoRa provenientes de nodos remotos, procesarlas y reenviarlas hacia un servidor APRS mediante conexión a Internet.
+
+\end{itemize}
+% ==============================
+\section{Introducción}
+
+El crecimiento de aplicaciones de telemetría y monitoreo remoto ha impulsado el desarrollo de tecnologías de comunicación inalámbrica capaces de operar a largas distancias con bajo consumo energético. Entre estas tecnologías destaca LoRa (Long Range), una modulación basada en Chirp Spread Spectrum diseñada para redes de área amplia de baja potencia (LPWAN). Por otra parte, el sistema Automatic Packet Reporting System (APRS) es ampliamente utilizado en el servicio de radioaficionados para transmitir información digital como posición geográfica, mensajes cortos y datos de sensores en tiempo real.
+
+La integración de tecnologías LoRa con la infraestructura APRS permite extender las capacidades de monitoreo y telemetría a largas distancias utilizando dispositivos embebidos de bajo consumo. El \textit{iGate}  cumple un rol fundamental dentro de la red APRS, ya que permite recibir paquetes transmitidos por radio y reenviarlos hacia la red global APRS-IS mediante conexión a Internet.
+
+El informe se centrara en el desarrollo  e investigación de un firmware para un iGate APRS basado en tecnología LoRa, capaz de recibir tramas provenientes de nodos remotos y reenviarlas a la red APRS-IS. Este firmware permitirá validar la integración entre comunicaciones de radio de largo alcance y plataformas de visualización en línea.
+
+
+
+
+
 \section{Fundamentación Teórica}
 
 \subsection{APRS (Automatic Packet Reporting System)}
@@ -254,6 +284,14 @@ El proceso incluye la acreditación como radioaficionado (según categoría), ev
 
 \subsubsection{Análisis Comparativo}
 Desde el punto de vista administrativo y temporal, la operación en la banda 902--940 MHz bajo régimen de uso libre representa la alternativa más viable para un proyecto académico de duración semestral, debido a la simplicidad del trámite y su corto plazo de resolución.
+% ==============================
+\section{Conclusiones}
+
+En el informe se realizó una investigación inicial sobre los fundamentos de los sistemas de comunicación APRS y la tecnología LoRa, analizando su funcionamiento, arquitectura de red y principales parámetros de operación. A partir de esta investigación, se identificó que la combinación de ambas tecnologías permite implementar sistemas de telemetría y monitoreo remoto con bajo consumo energético y gran alcance de comunicación.
+
+Asimismo, se estudió la legislación costarricense relacionada con el uso del espectro radioeléctrico, particularmente el Plan Nacional de Atribución de Frecuencias (PNAF). Esto permitió identificar las bandas disponibles para la implementación del sistema propuesto, así como las restricciones técnicas asociadas a potencia de transmisión y P.I.R.E. permitida.
+
+A partir de la arquitectura de red analizada, se determinó que el componente \textit{iGate} desempeña un papel fundamental dentro del sistema APRS, al actuar como puente entre la red de radio y la infraestructura de servidores en Internet.
 
 % ==============================
 \bibliographystyle{IEEEtran}
