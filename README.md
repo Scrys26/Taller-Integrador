@@ -1,4 +1,4 @@
-# Sistema de Comunicaciones LoRa/APRS  
+# Grupo 1 - Sistema de Comunicaciones LoRa/APRS  
 ## Definición de Alcance, Fundamentación Teórica y Marco Regulatorio en Costa Rica
 
 **Autores:**  
@@ -141,7 +141,7 @@ Interfaces (web/móvil) para visualizar datos en plataformas como `aprs.fi` o `a
 
 #### Diagrama de Red
 
-![Diagrama de red LoRa/APRS](Diagrama.png)
+![Diagrama de red LoRa/APRS](Informe/Diagrama.png)
 
 ---
 
