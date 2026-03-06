@@ -11,9 +11,6 @@ La red combina enlaces de radio basados en **LoRa** con la infraestructura distr
 El siguiente diagrama muestra el flujo general de los datos dentro del sistema, desde los nodos terminales hasta el cliente final.
 
 ![Diagrama de red LoRa/APRS](/doc/Diagrama.png)
-
-*(Asegúrate de que la ruta de la imagen coincida con la estructura de carpetas del repositorio.)*
-
 ---
 
 ## Componentes de la Red
