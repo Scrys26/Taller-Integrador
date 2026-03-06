@@ -1,5 +1,11 @@
-# 1. Introducción al Proyecto
+# Grupo 1 — Firmware de iGate APRS
 
+* **Proyecto:** Taller Integrador
+* Instituto Tecnológico de Costa Rica, Escuela de Ingeniería Electrónica.
+
+**Autores:**
+* Luis Diego García Rojas.
+* Randy Fernández Aguilar.
 ## Introducción
 
 El crecimiento de aplicaciones de telemetría y monitoreo remoto ha impulsado el desarrollo de tecnologías de comunicación inalámbrica capaces de operar a largas distancias con bajo consumo energético.
