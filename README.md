@@ -46,4 +46,13 @@ Desarrollar el **firmware de un iGate APRS basado en tecnología LoRa** capaz de
 
 ---
 
+## Diagrama de Gantt
+
+El siguiente diagrama muestra la distribución temporal de las actividades del proyecto a lo largo del semestre.
+
+![Diagrama de Gantt](/doc/gantt.png)
+
+---
+
+
 ➡️ **Siguiente sección:** [Marco Teórico](/doc/02_marco_teorico.md)
