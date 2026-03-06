@@ -40,4 +40,4 @@ Desarrollar el **firmware de un iGate APRS basado en tecnología LoRa** capaz de
 
 ---
 
-➡️ **Siguiente sección:** [Marco Teórico](02_marco_teorico.md)
+➡️ **Siguiente sección:** [Marco Teórico](doc/02_marco_teorico.md)
