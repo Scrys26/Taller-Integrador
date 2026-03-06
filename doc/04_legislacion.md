@@ -112,4 +112,5 @@ El siguiente cuadro resume los procesos regulatorios asociados a cada escenario.
 
 ---
 
-➡️ **Sección anterior:** [Arquitectura del Sistema](03_arquitectura.md)  
+➡️ **Sección anterior:** [Arquitectura del Sistema](/doc/03_arquitectura.md)  
+➡️ **Inicio:** [Introducción](README.md)  

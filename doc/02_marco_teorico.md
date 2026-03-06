@@ -132,4 +132,4 @@ Esto se realiza en función de la calidad del enlace, optimizando tanto la **efi
 
 ---
 
-➡️ **Siguiente sección:** [Arquitectura del Sistema](doc/03_arquitectura.md)
+➡️ **Siguiente sección:** [Arquitectura del Sistema](/doc/03_arquitectura.md)

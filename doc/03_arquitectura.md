@@ -10,7 +10,7 @@ La red combina enlaces de radio basados en **LoRa** con la infraestructura distr
 
 El siguiente diagrama muestra el flujo general de los datos dentro del sistema, desde los nodos terminales hasta el cliente final.
 
-![Diagrama de red LoRa/APRS](../Informe/Diagrama.png)
+![Diagrama de red LoRa/APRS](doc/Diagrama.png)
 
 *(Asegúrate de que la ruta de la imagen coincida con la estructura de carpetas del repositorio.)*
 
@@ -90,5 +90,5 @@ Ejemplos de clientes ampliamente utilizados son:
 
 ---
 
-➡️ **Sección anterior:** [Marco Teórico](02_marco_teorico.md)  
-➡️ **Siguiente sección:** [Legislación y Regulación del Espectro](04_legislacion.md)
+➡️ **Sección anterior:** [Marco Teórico](/02_marco_teorico.md)  
+➡️ **Siguiente sección:** [Legislación y Regulación del Espectro](/04_legislacion.md)
