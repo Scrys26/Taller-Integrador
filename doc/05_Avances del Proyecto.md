@@ -78,7 +78,7 @@ Incluye los bloques de:
 Responsable de la conexión **WiFi/TCP** y del envío de paquetes hacia los servidores **APRS-IS**.
 
 Este diagrama constituye una base sólida para la implementación posterior de la máquina de estados y del firmware propio.
- ![Diagrama de Bloques](/doc/Diagrama de bloques.jpeg)
+ ![Diagrama de Bloques](/doc/Diagrama_de_bloques.jpeg)
 
 
 ---
