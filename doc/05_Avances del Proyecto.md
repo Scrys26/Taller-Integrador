@@ -23,9 +23,14 @@ Adicionalmente, se comprobó el funcionamiento del sistema mediante la plataform
 
 A continuación, se presentan evidencias del funcionamiento del sistema:
 
-- Recepción de paquetes LoRa  
-- Estado de espera del módulo  
-- Visualización del dispositivo en la red APRS  
+- Recepción de paquetes LoRa
+![Estado de recepción](/doc/Recibiendo.jpeg)
+
+- Estado de espera del módulo
+![Estado de espera](/doc/Esperaderecepcion.jpeg)
+
+- Visualización del dispositivo en la red APRS
+ ![Red APRS](/doc/APRS.jpeg)
 
 
 ---
