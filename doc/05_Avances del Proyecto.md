@@ -97,4 +97,6 @@ Este flujo representa la secuencia de procesamiento de la información dentro de
 
 ---
 
-➡️ **Siguiente sección:** [Arquitectura del Sistema](/doc/03_arquitectura.md)
+
+➡️ **Sección anterior:** [Legislación](/doc/04_legislacion.md)  
+➡️ **Inicio:** [Introducción](/README.md)  
