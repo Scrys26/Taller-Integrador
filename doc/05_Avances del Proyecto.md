@@ -27,7 +27,7 @@ A continuación, se presentan evidencias del funcionamiento del sistema:
 ![Estado de recepción](/doc/Recibiendo.jpeg)
 
 - Estado de espera del módulo
-![Estado de espera](/doc/Esperaderecepcion.jpeg)
+![Estado de espera](/doc/Espera de recepcion.jpeg)
 
 - Visualización del dispositivo en la red APRS
  ![Red APRS](/doc/APRS.jpeg)
@@ -78,7 +78,7 @@ Incluye los bloques de:
 Responsable de la conexión **WiFi/TCP** y del envío de paquetes hacia los servidores **APRS-IS**.
 
 Este diagrama constituye una base sólida para la implementación posterior de la máquina de estados y del firmware propio.
-
+ ![Diagrama de Bloques](/doc/Diagrama de bloques.jpeg)
 
 
 ---
