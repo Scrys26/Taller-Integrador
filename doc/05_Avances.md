@@ -97,6 +97,36 @@ Este flujo representa la secuencia de procesamiento de la información dentro de
 
 ---
 
+## Avance 5: Diseño de la máquina de estados del firmware
+
+Con base  al diagrama de bloques, se desarrolló una máquina de estados que describe el comportamiento dinámico del firmware del iGate.
+
+La máquina de estados define los diferentes modos de operación del sistema y las transiciones entre ellos en función de eventos específicos.
+
+Los estados principales del sistema son:
+
+- **START:** Estado inicial del sistema.
+- **LISTEN:** Estado de espera y recepción de paquetes LoRa.
+- **DECODE:** Procesamiento y validación de las tramas recibidas.
+- **UPLINK:** Envío de paquetes hacia la red APRS-IS mediante conexión WiFi.
+- **BEACON_TX:** Transmisión periódica de beacons del sistema.
+- **ERROR:** Manejo de fallos y recuperación del sistema.
+
+El flujo principal del sistema sigue la secuencia:
+
+**START → LISTEN → DECODE → UPLINK → LISTEN**
+
+Las transiciones entre estados están controladas por eventos como:
+
+- Recepción válida de paquetes LoRa
+- Errores de comunicación
+- Fallos en la conexión WiFi
+- Eventos periódicos de transmisión (beacon)
+
+Además, se incluye un estado de manejo de errores que permite la recuperación del sistema y su retorno al estado de operación normal.
+
+Esta máquina de estados constituye la base para la implementación del firmware, permitiendo estructurar el código de forma modular y orientada a eventos.
+![Máquina de Estados](/doc/Maquina_de_Estados.pdf)
 
 ➡️ **Sección anterior:** [Legislación](/doc/04_legislacion.md)  
 ➡️ **Inicio:** [Introducción](/README.md)  
