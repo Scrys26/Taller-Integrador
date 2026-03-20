@@ -126,7 +126,7 @@ Las transiciones entre estados están controladas por eventos como:
 Además, se incluye un estado de manejo de errores que permite la recuperación del sistema y su retorno al estado de operación normal.
 
 Esta máquina de estados constituye la base para la implementación del firmware, permitiendo estructurar el código de forma modular y orientada a eventos.
-![Máquina de Estados](/doc/Maquina_de_Estados.pdf)
+![Máquina de Estados](/doc/Maquina_de_Estados.png)
 
 ➡️ **Sección anterior:** [Legislación](/doc/04_legislacion.md)  
 ➡️ **Inicio:** [Introducción](/README.md)  
