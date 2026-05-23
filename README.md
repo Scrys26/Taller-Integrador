@@ -134,13 +134,6 @@ lib_deps =
     adafruit/Adafruit SSD1306@^2.5.7
     adafruit/Adafruit GFX Library@^1.11.9
 ```
-
----
-
-## Diagrama de Gantt
-
-![Diagrama de Gantt](/doc/dgantt.png)
-
 ---
 
 ➡️ **Documentación adicional:** [Marco Teórico](/doc/02_marco_teorico.md)
